@@ -1,0 +1,197 @@
+@font-face{
+    font-family: "Roboto"; /*Для ссылок текст НЕ МЕНЯЕТСЯ*/
+    src:url("./Fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+    font-display: swap; /*правильная загрузка шрифтов*/
+}
+/*Как я понимаю, надо скачать и подключить еще один шрифт специально для WD*/
+.header{
+    position: relative;
+    background-color:#EEEFF1;
+    width: 1920px;
+    height: 700px;
+}
+.header__WS{
+    /*указываю расположение на странице сайта*/
+    top: 50px;
+    left: 402px;
+    /*задаю параметры теста*/
+    font-family: 'Roboto', sans-serif; /*поменять тут шрифт надо*/
+    color: #34547A;
+    text-align: center;
+    /*задаю размеры тэга <h1 class="header__WS">*/
+    width: 96px;
+    height: 60px;
+}
+.header__menu{
+    position: relative;
+    left: 896px;
+    top: 79px;
+}
+.header__menu li{
+    position: relative;
+    margin-right: 22px;
+    margin-left: 22px;
+    display: inline; /* Отображать как строчный элемент */
+}
+.img__frame{
+  /*указываю расположение на странице сайта*/
+  top: 271px;
+  left: 487px;
+  /*задаю размеры тэга <img>*/
+    width: 357px;
+    height: 233.7px;
+}
+.header__design{
+/*указываю расположение на странице сайта*/
+position: relative;
+top: 250px;
+left: 574px;
+/*задаю параметры теста*/
+font-family: 'Roboto', sans-serif;
+color: #000000;
+text-align: center;
+/*задаю размеры тэга <h1 class="header__design">*/
+width: 541px;
+height: 45px;
+}
+.header__text{
+/*указываю расположение на странице сайта*/
+top: 355px;
+left: 975px;
+/*задаю параметры теста*/
+font-family: 'Roboto', sans-serif;
+color: #000000;
+text-align: center;
+/*задаю размеры тэга <p class="header__text">*/
+width: 540px;
+height: 67px;  
+float: right;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+.header__button{
+    position: relative;
+    top: 489px;
+    left: 975px;
+    background-color: #34547A;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    width: 225px;
+    height: 65px;
+}
+
+.about{
+    position: relative;
+    background-color:#E5E5E5;
+    width: 1920px;
+    height: 366px;
+}
+.about h2{
+    text-align: center;
+    margin-top: 265px;
+}
+.about p{
+    text-align: center;
+    margin-top: 80px;
+}
+.projects{
+    position: relative;
+    background-color: #34547A;
+    width: 1920px;
+    height: 250px;
+}
+.img__projects{
+    width: 141px;
+    height: 50px;
+    margin-top: 100px;
+    /*не могу отцентрировать элементы*/
+    
+}
+.skills{
+    position: relative;
+    background-color:#E5E5E5;
+    width: 1920px;
+    height: 653px;
+}
+.skills img{
+    width: 555px;
+    height: 450px;
+    float: right;
+    margin-right: 384px;
+    margin-top: 102px;
+}
+.skills h2{
+    margin-left: 386px;
+}
+.skills p{
+    margin-left: 386px;
+}
+.skills progress{
+    margin-left: 386px;
+}
+.video{
+    position: relative;
+    background-color: #EEEFF1;
+    width: 1920px;
+    height: 1004px;
+}
+.video h2{
+width: 403px;
+height: 30px;
+margin-left: 758px;
+}
+.video p{
+width: 540px;
+height: 67px;
+margin-left: 690px;
+text-align: center;  
+}
+.img__Video-icon{
+width: 1100px;
+height: 600px;
+margin-top: 304px;
+margin-left: 405px;
+}
+.img__Video-play{ /*не видно этой кнопки*/
+width: 100px;
+height: 100px;
+margin-top: 554px;
+margin-left: 910px;
+}
+
+
+.overview{
+    position: relative;
+    background-color:#E5E5E5;  
+    width: 1920px;
+    height: 988px;
+}
+.microsoft{
+    position: relative;
+    background-color:#E5E5E5;
+    width: 1920px;
+    height: 292px;
+}
+.microsoft img{
+    width: 255px;
+    height: 120px;
+    margin-top: 72px;
+    /*не могу отцентрировать элементы*/
+}
+.desire{
+    position: relative;
+    background-color:#EEEFF1;
+    width: 1920px;
+    height: 762px;
+}
+.bottom{
+    position: relative;
+    background-color:#34547A;
+    width: 1920px;
+    height: 151px;
+}
